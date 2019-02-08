@@ -1,11 +1,5 @@
-# Jets Project
+# Example Project to Show Turbine
 
-This README would normally document whatever steps are necessary to get the application up and running.
+Note, the `on_exception` hook normally only fires on AWS Lambda. You can mimic it locally by calling the `Jets.process` method though.  Example:
 
-Things you might want to cover:
-
-* Dependencies
-* Configuration
-* Database setup
-* How to run the test suite
-* Deployment instructions
+    Jets.process({},{}, "handlers/jobs/hard_job.dig")

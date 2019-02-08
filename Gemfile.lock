@@ -74,7 +74,7 @@ GEM
     hashie (3.6.0)
     i18n (1.5.3)
       concurrent-ruby (~> 1.0)
-    jets (1.7.0)
+    jets (1.7.1)
       activerecord (~> 5.2.1)
       activesupport (~> 5.2.1)
       aws-sdk-apigateway
